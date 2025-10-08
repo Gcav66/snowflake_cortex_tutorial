@@ -1,3 +1,7 @@
+# Start Here
+* Download the files in this repo
+* Gus will show you what to do next
+
 ## Intro To AI Agents with Snowflake Cortex Tutorial
 
 ## Step-By-Step Guide
