@@ -1,6 +1,25 @@
 ## Intro To AI Agents with Snowflake Cortex Tutorial
 
+## Step-By-Step Guide
+This tutorial is bassed on the Snowflake Quickstart here: [QuickStart Guide](https://quickstarts.snowflake.com/guide/getting_started_with_cortex_agents/index.html#0)
+
+#### 1. Run setup script
+First, let's get your account setup with some sample data. Run the script in `austin_workshop/setup_script_austin_v2.sql` in a worksheet, with 
+[snowsql](https://docs.snowflake.com/en/user-guide/snowsql), or any other way you prefer.
+If you with to use a pre-existing database, schema, and warehouse, skip the first two steps of the setup script.
+
+#### 2. Upload semantic model
+Upload the Semantic Model yaml `austin_workshop/sales_metrics_model_grc.yaml`.
+
+In Snowsight:
+- Navigate to Data (Or Catalog » Database Explorer) » Databases » SALES_INTELLIGENCE » DATA » Stages » MODELS
+- Click "+ Files" in the top right
+- Browse and select sales_metrics_model.yaml file
+- Click "Upload"
+
+### 3. TO DO: Upload Notebooks
 This is a Snowflake Cortex Agent presentation project containing a Jupyter notebook demonstrating Snowflake Cortex AI capabilities. The project consists of a single tutorial notebook that shows how to interact with Snowflake's Cortex Agent API for sales intelligence analytics.
+
 
 ## Architecture
 
